@@ -1,15 +1,12 @@
 #include <stdio.h>
+
 /**
 
- * main - Entry point
+ * main - entry for  c coding challenge
 
- *
+ * in low level coding section.
 
- * Description: A C program that prints with put function
-
- *
-
- * Return: Always 0 (Success)
+ * Return: 0 returns zero
 
  */
 
@@ -17,7 +14,15 @@ int main(void)
   
 {
   
-  puts("\"Programming is like building a multilingual puzzle"); 
+  /**
+
+   * This code puts the below line.
+
+   */
+  
+  puts("\"Programming is like building a multilingual puzzle");
+  
   return (0);
   
 }
+
