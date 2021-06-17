@@ -3,7 +3,7 @@
 * main - entry point
 * Return: 0 main function returns nothing
 */
-int main(void) 
+int main(void)
 {
 /**
 * declare the data types whose
