@@ -6,13 +6,13 @@
 *
 * Return: Always 0 (Succesful)
 */
-int main(void)  
+int main(void)
 {
 int intType;
 float floatType;
 long int longIntType;
 long long int llongIntType;
-char charType;  
+char charType;
 /* sizeof evaluates the size of a variable */
 printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 printf("Size of an int: %zu byte(s)\n", sizeof(intType));
