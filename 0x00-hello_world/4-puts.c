@@ -6,10 +6,6 @@
 */
 int main(void)
 {
-/**
-* This code puts the below line.
-*/
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
-
