@@ -11,15 +11,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("n = %d\n", n);
+printf("n = %d\n");
 }
 else if (n == 0)
 {
-printf("n = %d\n", n);
+printf("n = %d\n");
 }
 else if (n < 0)
 {
-printf("n = %d\n" n);
+printf("n = %d\n");
 }
 return (0);
 }
