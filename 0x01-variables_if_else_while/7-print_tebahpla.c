@@ -3,8 +3,8 @@
 * main - program entry point
 * Return: 0 returns nothing
 */
-int main(void)	
-{	
+int main(void)
+{
 char c;
 for (c = 'z'; c >= 'a'; c--)
 {
