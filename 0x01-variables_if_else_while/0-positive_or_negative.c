@@ -11,15 +11,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("%d \n" "is positive");
+printf("%d \n");
 }
 else if (n == 0)
 {
-printf("%d \n""is zero");
+printf("%d \n");
 }
 else if (n < 0)
 {
-printf("%d \n" "is negative");
+printf("%d \n");
 }
 return (0);
 }
