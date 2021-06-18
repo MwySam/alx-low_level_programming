@@ -11,15 +11,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("%d \n");
+printf("%d \n, n");
 }
 else if (n == 0)
 {
-printf("%d \n");
+	printf("%d \n, n");
 }
 else if (n < 0)
 {
-printf("%d \n");
+printf("%d \n, n");
 }
 return (0);
 }
