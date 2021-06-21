@@ -1,46 +1,27 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* Description: print all possible different
-*           combinations of two digits.
-*
-* Return: Always 0 (Success)
+* main - prints all possible different combinations of two digits
+* Return: ALways 0 (Success)
 */
 int main(void)
 {
-int a = 0;
-int b;
-/*print the first digit*/
-while (a < 10)
+int n, m;
+
+for (n = 48; n <= 56; n++)
 {
-/**
-* we have to initialize
-* the second digit here
-*/
-b = 0;
-/*print the second digit*/
-while (b < 10)
+for (m = 49; m <= 57; m++)
 {
-/**
-* never print two digits that are the same
-* and make sure the first digit is less
-* that the second digit.
-*/
-if (a != b && a < b)
+if (m > n)
 {
-putchar(a + '0');
-putchar(b + '0');
-/*don't place a comma and space after 89*/
-if (a + b != 17)
+putchar(n);
+putchar(m);
+if (n != 56 || m != 57)
 {
 putchar(',');
 putchar(' ');
 }
 }
-b++;
 }
-a++;
 }
 putchar('\n');
 return (0);
