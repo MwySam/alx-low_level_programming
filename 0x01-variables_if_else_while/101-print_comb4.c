@@ -22,7 +22,7 @@ for (b = 0; b < 10; b++)
 for (c = 0; c < 10; c++)
 {
 /**
-* don't print three matching digits and
+* Don't print three matching digits and
 * make sure first digit is less than
 * the second digit and the second digit is
 * less than the third digit.
