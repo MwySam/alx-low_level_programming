@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Description: print all possible different
- *           combinations of two digits.
- *
- * Return: Always 0 (Success)
+* main - Entry point
+*
+* Description: print all possible different
+*           combinations of two digits.
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -17,7 +16,7 @@ while (a < 10)
 {
 /**
 * we have to initialize
- * the second digit here
+* the second digit here
 */
 b = 0;
 /*print the second digit*/
