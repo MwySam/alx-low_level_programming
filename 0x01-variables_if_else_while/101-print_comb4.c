@@ -3,12 +3,12 @@
 * main - Entry point
 *
 * Description: print all possible different
-* combinations of two digits.
+*            combinations of two digits.
 *
 * Return: Always 0 (Success)
 */
-int main(void)
-{
+int main(void)	
+{	
 int a;
 int b;
 int c;
@@ -22,7 +22,7 @@ for (b = 0; b < 10; b++)
 for (c = 0; c < 10; c++)
 {
 /**
-* Don't print three matching digits and
+* don't print three matching digits and
 * make sure first digit is less than
 * the second digit and the second digit is
 * less than the third digit.
