@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)	
+int main(void)
 {
 	/**
 	 * we declare our str char array of size 10
@@ -17,13 +17,13 @@ int main(void)
 	/**
 	 * print each character from our str array
 	 * which is contains 8 characters
-	 */	
-while (ch < 10)
+	 */
+while (ch <= 9)
 {
 _putchar(str[ch]);
 ch++;
 }
 /*place a new line after looping through our charcters*/
 _putchar('\n');
-return (0);	
+return (0);
 }
