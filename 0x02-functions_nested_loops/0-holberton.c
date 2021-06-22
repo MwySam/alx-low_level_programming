@@ -13,15 +13,14 @@ int main(void)
 	 * and an int ch which is 0
 	 */
 	char str[9] = "Holberton";
-	int ch = 0;
+	int i;
 	/**
 	 * print each character from our str array
-	 * which is contains 8 characters
+	 * which contains 9 characters
 	 */
-while (ch <= 9)
+for i = 0; i < 9; i++)
 {
-_putchar(str[ch]);
-ch++;
+_putchar(str[i]);
 }
 /*place a new line after looping through our charcters*/
 _putchar('\n');
