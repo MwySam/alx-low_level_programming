@@ -1,11 +1,19 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for ALX School students.
+ *
+ *Description:function called print_alphabet
+ *            that utilizes on the _putchar
+ *            function prototype
  *
  * Return: Always 0.
  */
-int main(void)	
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);	
+char ch;
+for (ch ='a'; ch <= 'z'; ch++)
+{
+_putchar ("ch\n");
+}
+return (0)
 }
