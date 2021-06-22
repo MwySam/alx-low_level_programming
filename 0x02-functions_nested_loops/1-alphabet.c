@@ -1,16 +1,12 @@
 #include "holberton.h"
 /**
- * main - check the code for ALX School students.
- *
- *Description:function called print_alphabet
- *            that utilizes on the _putchar
- *            function prototype
+ *print_alphabet - prints alphabets in lower case
  *
  * Return: Always 0.
  */
 void print_alphabet(void)
 {
-char c = 'a';	
+char c = 'a';
 while (c <= 'z')
 {
 _putchar(c);
