@@ -18,7 +18,7 @@ int main(void)
 	 * print each character from our str array
 	 * which contains 9 characters
 	 */
-for i = 0; i < 9; i++)
+(for i = 0; i < 9; i++)
 {
 _putchar(str[i]);
 }
