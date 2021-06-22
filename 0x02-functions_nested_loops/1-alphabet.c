@@ -10,9 +10,11 @@
  */
 void print_alphabet(void)
 {
-for (c = 'a'; c <= 'z'; c++)
+char c = 'a';	
+while (c <= 'z')
 {
 _putchar(c);
+c++;
 }
 _putchar('\n');
 }
