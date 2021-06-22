@@ -12,13 +12,13 @@ int main(void)
 	 * we declare our str char array of size 10
 	 * and an int ch which is 0
 	 */
-	char str[8] = "Holberton";
+	char str[9] = "Holberton";
 	int ch = 0;
 	/**
 	 * print each character from our str array
 	 * which is contains 8 characters
 	 */	
-while (ch < 9)
+while (ch < 10)
 {
 _putchar(str[ch]);
 ch++;
