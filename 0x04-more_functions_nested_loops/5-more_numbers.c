@@ -8,7 +8,7 @@ void more_numbers(void)
 int i;
 for (i = 0; i < 10; i++)
 {
-char c = '0';
+int c = '0';
 if (c != 15)
 {
 _putchar(c);
