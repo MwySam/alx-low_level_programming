@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  * print_most_numbers - prints numerical digits except 2 and 4.
  * Return: 0 - doesn't return anything.
