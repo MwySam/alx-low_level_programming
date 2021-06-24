@@ -6,7 +6,7 @@
 void print_most_numbers(void)
 {
 char c = '0';
-while (c <= '9' && c != '2' && c != '4')
+while (c <= '9' && c != 50 && c != 52)
 {
 _putchar(c);
 c++;
