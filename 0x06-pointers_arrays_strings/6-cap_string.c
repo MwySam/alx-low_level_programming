@@ -1,39 +1,54 @@
 #include "holberton.h"
+#include <stdio.h>
+
 /**
-* *cap_string - capitalizes all words of a string.
-*
-* @str: hold character.
-* Return: string.
+* isLower - determines whether ascii is lowercase
+* @c: character
+* Return: 1 if true, 0 if false
 */
-char *cap_string(char *str)
+int isLower(char c)
+{
+return (c >= 97 && c <= 122);
+}
+
+/**
+* isDelimiter - determines whether ascii is a delimiter
+* @c: character
+* Return: 1 if true, 0 if false
+*/
+int isDelimiter(char c)
 {
 int i;
-for (i = 0; str[i] != '\0'; i++)
-{
-if (i == 0)
-{
-if ((str[i] >= 97 && str[i] <= 122))
-{
-str[i] = str[i] - 32;
-continue;
+char delimiter[] = " \t\n,.!?\"(){}";
+
+for (i = 0; i < 12; i++)
+if (c == delimiter[i])
+return (1);
+return (0);
 }
-}
-else if (str[i] == ' ')
+
+/**
+* cap_string - capitalizes all words of a string
+* @s: input string
+* Return: string with capitalized words
+*/
+char *cap_string(char *s)
 {
-++i;
-if (str[i] >= 97 && str[i] <= 122)
+char *ptr = s;
+int foundDelimit = 1;
+
+while (*s)
 {
-str[i] = str[i] - 32;
-continue;
-}
+if (isDelimiter(*s))
+foundDelimit = 1;
+else if (isLower(*s) && foundDelimit)
+{
+*s -= 32;
+foundDelimit = 0;
 }
 else
-{
-if (str[i] >= 65 && str[i] <= 90)
-{
-str[i] = str[i] + 32;
+foundDelimit = 0;
+s++;
 }
-}
-}
-return (str);
+return (ptr);
 }
