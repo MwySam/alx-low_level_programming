@@ -34,7 +34,6 @@ return (wildcard(s3 + 1, s4));
 }
 return (test(s3 + 1, s4 + 1, s3, s4));
 }
-
 /**
 * wildcmp - compares two strings
 * @s1: first string
