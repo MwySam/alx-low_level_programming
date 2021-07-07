@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *@s: string
- *_puts_recursion - prints a string
- *_putchar - prints
+*@s: string
+*_puts_recursion - prints a string
+*_puts - prints
 * Return : void 
 */
 void _puts_recursion(char *s)
