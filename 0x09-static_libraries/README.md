@@ -1,0 +1,1 @@
+_This project contains static libraries__
