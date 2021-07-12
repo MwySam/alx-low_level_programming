@@ -7,6 +7,8 @@
 * array of size argv[argc-1]
 * Return: an interger 0 for sucess.
 */
+
+
 int main(int argc __attribute__((unused)), char *argv[])
 {
 printf("%s\n", argv[0]);
