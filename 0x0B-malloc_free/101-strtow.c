@@ -9,7 +9,6 @@
 int wrdcnt(char *s)
 {
 int i, n = 0;
-
 for (i = 0; s[i]; i++)
 {
 if (s[i] == ' ')
@@ -23,7 +22,6 @@ n++;
 n++;
 return (n);
 }
-
 /**
 * strtow - splits a string into words
 * @str: string to split
@@ -34,7 +32,6 @@ char **strtow(char *str)
 {
 int i, j, k, l, n = 0, wc = 0;
 char **w;
-
 if (str == NULL || *str == '\0')
 return (NULL);
 n = wrdcnt(str);
