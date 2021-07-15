@@ -14,7 +14,6 @@ while (n--)
 *s++ = b;
 return (ptr);
 }
-
 /**
 * *_calloc - allocates memory for an array, using malloc
 * @nmemb: array length
@@ -26,9 +25,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 void *m;
 if (size == 0 || nmemb == 0)
 return (NULL);
-m = malloc(nmemb * size);
+m = malloc(nmemb *size);
 if (m == 0)
 return (NULL);
-_memset(m, 0, nmemb * size);
+_memset(m, 0, nmemb *size);
 return (m);
 }
