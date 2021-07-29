@@ -4,8 +4,8 @@
  * @str: string
  * Return: length
  */
-int _strlen(const char *str)	
-{	
+int _strlen(const char *str)
+{
 int len;
 for (len = 0; str[len] != '\0'; len++)
 ;
@@ -17,8 +17,8 @@ return (len);
  * @str: data for new node
  * Return: address of new element, or NULL if failed
  */
-list_t *add_node(list_t **head, const char *str)	
-{	
+list_t *add_node(list_t **head, const char *str)
+{
 list_t *new_node; /* create new node */
 if (str == NULL) /* validate input */
 return (NULL);
@@ -34,5 +34,5 @@ new_node->next = NULL;
 else
 new_node->next = *head;
 *head = new_node; /* set head to point to new node */
-return (new_node);	
+return (new_node);
 }

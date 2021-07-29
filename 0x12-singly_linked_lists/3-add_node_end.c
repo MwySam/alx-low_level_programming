@@ -4,12 +4,12 @@
  * @str: string
  * Return: length
  */
-int _strlen(const char *str)	
+int _strlen(const char *str)
 {
 int len;
 for (len = 0; str[len] != '\0'; len++)
 ;
-return (len);	
+return (len);
 }
 /**
  * add_node_end - add node to end of linked list
@@ -17,7 +17,7 @@ return (len);
  * @str: data for new node
  * Return: address of new element, or NULL if failed
  */
-list_t *add_node_end(list_t **head, const char *str)	
+list_t *add_node_end(list_t **head, const char *str)
 {
 list_t *new_node, *tmp; /* create new node */
 if (str == NULL) /* validate input */
@@ -39,5 +39,5 @@ while (tmp->next != NULL)
 tmp = tmp->next;
 tmp->next = new_node;
 }
-return (new_node);	
+return (new_node);
 }
