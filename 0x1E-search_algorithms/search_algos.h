@@ -1,15 +1,16 @@
 #ifndef SEARCH_ALGOS_H
 #define SEARCH_ALGOS_H
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * struct listint_s - Singly linked list.
  * @n: Integer stored at the node.
  * @index: Index of the node in the list.
  * @next: Pointer to the next node.
- \*
+ *
  * Description: Singly linked list node structure.
- *        */
+ */
 
 typedef struct listint_s
 {
