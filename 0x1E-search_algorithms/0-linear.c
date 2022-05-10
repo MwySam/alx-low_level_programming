@@ -26,4 +26,4 @@ printf("Value checked array[%d] = [%d]\n", (int)i, *(array + i));
 }
 }
 return (-1);
-
+}
