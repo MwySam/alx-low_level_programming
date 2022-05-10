@@ -8,7 +8,7 @@
  * Return: The first index of the value in the array, otherwise -1.
  */
 
-int linear_search(int *array, size_t size, int value);
+int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
 
@@ -22,7 +22,7 @@ int linear_search(int *array, size_t size, int value);
 	       else
 	       {
 		       printf("Found %d at index %d/n", int (i), *array);
-		       return -i;
+		       return -1;
 	       }
 	}
 }
