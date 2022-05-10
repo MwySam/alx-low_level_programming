@@ -11,7 +11,9 @@
 int linear_search(int *array, size_t size, int value);
 {
 	size_t i;
+
 	for (i = 0; i < size; i++)
+	{
 	       if (*array == value)
 	       {
 		       printf("Found %d at index %d/n", int (i), *array);
@@ -22,4 +24,6 @@ int linear_search(int *array, size_t size, int value);
 		       printf("Found %d at index %d/n", int (i), *array);
 		       return -i;
 	       }
+	}
 }
+
